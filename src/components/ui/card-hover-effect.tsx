@@ -54,11 +54,11 @@ export const HoverEffect = ({
             <CardDescription>{item.description}</CardDescription>
             <div className="flex gap-2">
               <Link href={item.link} target="_blank" className="flex mt-4 border border-gray-400 p-2 rounded-full text-neutral-400">
-                <button className="flex"><IconBrandGithub /></button>
+                <button className="flex justify-center"><IconBrandGithub /></button>
               </Link>
               {item.live ? (
                 <Link href={item.live} target="_blank" className="flex mt-4 border border-gray-400 p-2 rounded-full text-neutral-400">
-                  <button className="flex">Live&nbsp;<IconArrowRight className="transition-all hover:translate-x-1" /></button>
+                  <button className="flex justify-center">Live&nbsp;<IconArrowRight className="transition-all hover:translate-x-1" /></button>
                 </Link>
               ) : null}
             </div>
