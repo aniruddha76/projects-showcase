@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Aniruddha Thakur | Project Showcase",
   description: "The ultimate showcase of my tech wizardry!",
+  openGraph: {
+    images: '/preview.png'
+  },
+  metadataBase: new URL("https://projects-showcase-wine.vercel.app/"),
 };
 
 export default function RootLayout({
@@ -16,7 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <title></title>
       <body className={inter.className}>{children}</body>
     </html>
   );
