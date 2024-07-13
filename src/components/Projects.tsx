@@ -7,6 +7,7 @@ export default function Projects() {
           title: "Selenium Instagram Scraper",
           description: "The Selenium Instagram Scraper is a tool designed to automate the extraction of entire Instagram users' posts. Utilizing the Selenium framework, it navigates Instagram's interface to gather and download posts efficiently.",
           link: "https://github.com/aniruddha76/Selenium-instagram-scrape",
+          live: "",
         },
         {
           title: "Music Academy",
